@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 #Carga del archivo Excel
-ruta = "/Cursos/Proyectos Personales/Proyecto CENANCE/datascience/llamadas_callcenter.xlsx"
+ruta = "/Cursos/Proyectos Personales/Python-SQL/llamadas_callcenter.xlsx"
 
 df = pd.read_excel(ruta)
 
