@@ -9,11 +9,16 @@ Asegúrate de tener instaladas las siguientes dependencias:
 ```bash
 pip install pandas openpyxl sqlalchemy psycopg2
 ```
-Proyecto /CENACE
+
+|Proyecto /CENACE
+
 │
 ├── datascience/
+
 │   ├── llamadas_callcenter.xlsx   # Archivo Excel con los datos
+
 │   └── script.py                  # Script principal de carga
+
 
 El script lee un archivo Excel y lo carga en una base de datos PostgreSQL. A continuación se configuran los parámetros de conexión:
 
